@@ -1,6 +1,37 @@
-# File for playwright testing 
+# Playwright Testing Setup
 
-Install playwright via npm by running the command below: /n
+This project uses Playwright for automated testing.
+
+## Installation
+
+Install Playwright using npm:
+
+```bash
 npm install playwright
-Recommended to also install Playwright Test for VSCode
-To run tests, use the Testing feature in vscode or run npx playwright test
+```
+
+It is also recommended to install the following VS Code extension:
+
+- Playwright Test for VS Code
+
+## Running Tests
+
+You can run tests using either:
+
+### VS Code
+Use the **Testing** panel in VS Code to run and manage tests.
+
+### Command Line
+Run all Playwright tests with:
+
+```bash
+npx playwright test
+```
+
+## Additional Notes
+
+If this is your first time setting up Playwright, you may also need to install browser dependencies:
+
+```bash
+npx playwright install
+```
